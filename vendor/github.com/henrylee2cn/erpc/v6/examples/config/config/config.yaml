@@ -1,0 +1,27 @@
+cfg_cli:
+  network: tcp
+  local_ip: 0.0.0.0
+  listen_port: 0
+  dial_timeout: 0s
+  redial_times: 0
+  redial_interval: 100ms
+  default_body_codec: json
+  default_session_age: 0s
+  default_context_age: 0s
+  slow_comet_duration: 0s
+  print_detail: false
+  count_time: false
+
+cfg_srv:
+  count_time: true
+  default_body_codec: json
+  default_context_age: 0s
+  dial_timeout: 0s
+  default_session_age: 0s
+  listen_port: 9090
+  local_ip: 0.0.0.0
+  network: tcp
+  print_detail: false
+  redial_interval: 100ms
+  redial_times: 0
+  slow_comet_duration: 0s
